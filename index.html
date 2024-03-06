@@ -46,19 +46,77 @@
 
   <header class=" container mx-auto">
 
-    <div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-      <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero min-h-screen flex sm:flex-row-reverse justify-around bg-[#12132D] rounded-2xl" style="background-image: url(images/bgbanner.png);">
       <div class="hero-content text-center text-neutral-content">
         <div class="max-w-md">
-          <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-          <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-          <button class="btn btn-primary">Get Started</button>
+          <h1 class="mb-5 text-5xl font-bold">Welcome to the MeTro Forum</h1>
+          <p class="mb-5">Share your favorite opinion and win and wp forum coffee mug!</p>
+          <label class="input input-bordered flex items-center gap-2">
+            <input type="text" class="grow" placeholder="Search here anything" />
+            <button class="btn btn-primary rounded-tl-xl">Search</button>
+          </label>
+        </div>
+      </div>
+      <div class="bg-white p-4 lg:p-12 rounded-3xl space-y-6">
+        <!-- <p>Registered Users</p>
+        <p>Forum</p>
+        <p>Topics</p>
+        <p>Replies</p> -->
+        
+          <table class="table">
+            <!-- head -->
+              <tbody>
+              <!-- row 1 -->
+              <tr>
+                
+                <td>Registered Users</td>
+                <td>01</td>
+              </tr>
+              <!-- row 2 -->
+              <tr>
+                <td>Forum</td>
+                <td>05</td>
+              </tr>
+              <!-- row 3 -->
+              <tr>
+                <td>Topics</td>
+                <td>01 </td>
+              </tr>
+              <tr>
+                <td>Replies</td>
+                <td>01 </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
   </header>
 
+  <aside>
+    <div class="bg-slate-400 border-2 h-24"><h1>I love aside</h1></div>
+  </aside>
+ <main class="container mx-auto">
+  <div id="postCard">
+    <div class="bg-[#797DFC] rounded-2xl">
+      <div class="space-x-4 space-y-4">
+        <span># Music</span><p>Author : Awlad Hossain</p>
+        <h3>10 Kids Unaware of Their Halloween Costume</h3>
+        <p>It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative</p>
+        <hr class="border-dashed">
+        <i class="fa-solid fa-message"> 560</i> 
+        <i class="fa-regular fa-eye"> 1,568</i>
+        <i class="fa-regular fa-clock"> 5 min</i>
+      </div>
+      <div class="">
+        <i class="fa-regular fa-envelope-open"></i>
+      </div>
+    </div>
+  </div>
+ </main>
 
+
+<script src="app.js"></script>
 </body>
 
 </html>
